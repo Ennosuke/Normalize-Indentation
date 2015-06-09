@@ -1,14 +1,14 @@
 [
     {
         "caption": "Preferences",
-        "mnemonic": "n",
         "id": "preferences",
+        "mnemonic": "n",
         "children":
         [
             {
                 "caption": "Package Settings",
-                "mnemonic": "P",
                 "id": "package-settings",
+                "mnemonic": "P",
                 "children":
                 [
                     {
@@ -25,19 +25,18 @@
                             {
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/User/Normalize Indentation.sublime-settings",
-                                    
+                                    "file": "${packages}/User/Normalize Indentation.sublime-settings"
                                 },
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" },
                             {
+                                "caption": "Key Bindings – Default",
                                 "command": "open_file", "args":
                                 {
                                     "file": "${packages}/Normalize Indentation/Default (OSX).sublime-keymap",
-                                    "platform": "OSX",
-                                },
-                                "caption": "Key Bindings - Default"
+                                    "platform": "OSX"
+                                }
                             },
                             {
                                 "caption": "Key Bindings – User",
@@ -48,12 +47,12 @@
                                 }
                             },
                             {
+                                "caption": "Key Bindings – Default",
                                 "command": "open_file", "args":
                                 {
                                     "file": "${packages}/Normalize Indentation/Default (Linux).sublime-keymap",
-                                    "platform": "Linux",
-                                },
-                                "caption": "Key Bindings - Default"
+                                    "platform": "Linux"
+                                }
                             },
                             {
                                 "caption": "Key Bindings – User",
@@ -64,12 +63,12 @@
                                 }
                             },
                             {
+                                "caption": "Key Bindings – Default",
                                 "command": "open_file", "args":
                                 {
                                     "file": "${packages}/Normalize Indentation/Default (Windows).sublime-keymap",
-                                    "platform": "Windows",
-                                },
-                                "caption": "Key Bindings - Default"
+                                    "platform": "Windows"
+                                }
                             },
                             {
                                 "caption": "Key Bindings – User",
@@ -83,22 +82,15 @@
                     }
                 ]
             }
-        ],
-        "caption": "Tools",
+        ]
+    }, 
+    {
         "id": "tools",
         "children":
         [
             {
-                "caption": "Packages",
-                "id": "packages",
-                "children": 
-                    [
-                        {
-                            "caption": "Normalize Indentation",
-                            "command": "normalize_indentation"
-                        }
-
-                    ]
+                "caption": "Normalize Indentation",
+                "command": "normalize_indentation",
             }
         ]
     }

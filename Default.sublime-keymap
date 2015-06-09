@@ -1,6 +1,0 @@
-[
-    {
-        "keys": ["ctrl+alt+n"],
-        "command": "normalize_indentation"
-    }
-]
