@@ -1,5 +1,15 @@
 [
     {
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Normalize Indentation",
+                "command": "normalize_indentation",
+            }
+        ]
+    }.
+    {
         "caption": "Preferences",
         "id": "preferences",
         "mnemonic": "n",
@@ -83,15 +93,5 @@
                 ]
             }
         ]
-    }, 
-    {
-        "id": "tools",
-        "children":
-        [
-            {
-                "caption": "Normalize Indentation",
-                "command": "normalize_indentation",
-            }
-        ]
-    }
+    },
 ]
