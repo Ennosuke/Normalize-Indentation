@@ -8,7 +8,7 @@
                 "command": "normalize_indentation",
             }
         ]
-    }.
+    },
     {
         "caption": "Preferences",
         "id": "preferences",
